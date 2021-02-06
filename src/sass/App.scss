@@ -1,0 +1,57 @@
+@import "./variables";
+body {
+  background-color: #eaf0f0f8!important;
+  margin:0px;
+  padding: 0px;
+	p{
+  font-size: 10px;
+}
+div {
+	h4 {
+		font-size: 20px;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	h5 {
+		font-size: 15px;
+		font-family: 'Times New Roman', Times, serif;
+	}
+}
+; 
+	div {
+		h6 {
+			font-size: 12px;
+			font-family: 'Times New Roman', Times, serif;
+			color: $primaryColor;
+		}
+		span {
+			h6 {
+				font-size: 12px;
+				font-family: 'Times New Roman', Times, serif;
+				color: $primaryColor;
+			}
+		}
+	}
+}
+.fa-facebook-square {
+	color: rgb(6, 76, 168);
+}
+.fa-twitter {
+	color: rgb(11, 192, 247);
+}
+.fa-linkedin {
+	color: rgb(0, 132, 255);
+}
+ul {
+	li {
+		a {
+			&.nav-link {
+				h6 {
+					&:hover {
+						color: rgba(12, 12, 12, 0.815);
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
